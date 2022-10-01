@@ -33,3 +33,11 @@
   left: 530px;
   bottom: 30px;
 }
+
+@media screen and (max-width: 430px) {
+  .mainIcon {
+    left: 260px;
+    bottom: 40px;
+    width: 70px;
+  }
+}
