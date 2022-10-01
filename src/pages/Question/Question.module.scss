@@ -45,6 +45,10 @@
   left: 20px;
 }
 
+.categoryImg {
+  width: 170px;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -55,4 +59,19 @@ button {
   padding: 10px 20px;
   font-weight: 500;
   color: #516ae9;
+}
+
+@media screen and (max-width: 430px) {
+  .root {
+    font-size: 14px;
+  }
+
+  .categoryImg {
+    width: 130px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
 }

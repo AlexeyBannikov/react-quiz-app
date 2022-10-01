@@ -46,7 +46,11 @@ const Question = () => {
           <Link to='/'>
             <img className={styles.close} src={closeIcon} alt='Close icon' />
           </Link>
-          <img width='170' src={categories[categoryURLId - 1].svg} alt='Question Icon' />
+          <img
+            className={styles.categoryImg}
+            src={categories[categoryURLId - 1].svg}
+            alt='Question Icon'
+          />
           <h1>{questions[step].title}</h1>
           <h4>
             Вопрос {step + 1} из {questions.length}
