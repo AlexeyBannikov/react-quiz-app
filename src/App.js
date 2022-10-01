@@ -7,8 +7,6 @@ import Result from './pages/Result';
 
 import './assets/styles/global.scss';
 
-//TODO: Сделать верстку для телефонов
-
 const App = () => {
   return (
     <Routes>
