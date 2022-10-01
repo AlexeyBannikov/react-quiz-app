@@ -1,0 +1,35 @@
+.category {
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to right, #ed6f9e, #ec8a6d);
+  margin-bottom: 45px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px rgb(200, 200, 200);
+
+  span {
+    display: flex;
+
+    &:not(:last-child) {
+      opacity: 0.9;
+    }
+
+    &:first-child {
+      margin-bottom: 10px;
+    }
+
+    &:last-child {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+.mainIcon {
+  width: 90px;
+  overflow: hidden;
+  position: absolute;
+  left: 530px;
+  bottom: 30px;
+}

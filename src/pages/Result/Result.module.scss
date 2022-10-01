@@ -1,0 +1,21 @@
+.root {
+  background: linear-gradient(to bottom, #3492f4, #5474ed);
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    cursor: pointer;
+    border: none;
+    width: 250px;
+    box-shadow: 0px 5px 7px #4566cd;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-weight: 500;
+    color: #516ae9;
+  }
+}
